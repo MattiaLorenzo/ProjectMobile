@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto" >
+    	
+	<item android:id="@+id/view_path"
+          android:icon="@drawable/path"
+          android:title="@string/my_position_item"
+          app:showAsAction="always"
+    />
+    <item android:id="@+id/my_position"
+          android:icon="@drawable/my_position"
+          android:title="@string/my_position_item"
+          app:showAsAction="always"
+    />	
+    <item android:id="@+id/start_stop_updates"
+          android:icon="@drawable/start"
+          android:title="@string/start_stop_updates"
+          app:showAsAction="always"
+    />
+    <item android:id="@+id/chat_item"
+          android:icon="@drawable/chat"
+          android:title="@string/chat_item"
+          app:showAsAction="always"
+    />
+    <item android:id="@+id/add_friend_item"
+          android:icon="@drawable/add_friend"
+          android:title="@string/add_friend"
+          app:showAsAction="always"
+    />
+</menu>
